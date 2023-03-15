@@ -1,0 +1,175 @@
+h1 {
+    color: #7ec9cc;
+    text-align: center;
+    font-size: 40px;
+    background-color: grey;
+    margin: 0px;
+    padding: 10px 0 60px 0;
+    font-family: 'Roboto Slab', serif;    
+}
+
+#curtis {
+    position: relative;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -64px;    
+    padding: 8px;
+    background-color: #d4f0f0;
+    z-index: 2;
+}
+
+.menu {
+    display: inline-block;
+    background-color: #7ec9cc;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;          
+}
+
+button {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav {
+    position: relative;
+    background-color: rgb(65, 61, 61);
+    padding-top: 80px;
+    margin-top: -72px;
+    text-align: center;
+    border-color: #0a8a8f solid 1px;
+    z-index: 1;
+}
+
+body {
+    background-color: #d4f0f0;
+}
+
+.textPersonal {
+    display: flex;
+    column-count:3;
+    color: rgb(5, 47, 95);
+    text-align: center;
+    font-size: 30px;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 700px) {
+    .textPersonal {
+      column-count:1;
+    }
+}
+
+#textLaboral {
+    display: flex;
+    column-count:3;
+    color: rgb(5, 47, 95);    
+    font-size: 30px;
+    word-wrap: break-word;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    #textLaboral  {
+      column-count:1;
+    }
+}
+
+#textAcademica {
+    display: flex;
+    column-count:3;
+    color: rgb(5, 47, 95);    
+    font-size: 30px;
+    word-wrap: break-word;
+    column-gap: 20px;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    #textAcademica  {
+      column-count:1;
+    }
+}
+
+#textHabilidades {
+    display: flex;
+    column-count:3;
+    color: rgb(5, 47, 95);    
+    font-size: 30px;
+    word-wrap: break-word;
+    column-gap: 20px;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    #textHabilidades  {
+      column-count:1;
+    }
+}
+
+article {
+    margin-top: 10px;
+    background-color: rgb(83, 185, 185, 0.3);
+    border-radius: 0 0 20px 20px; 
+    padding: 10px 20px 10px 20px; 
+    border: #0a8a8f solid 2px;   
+}
+
+#textprincipal {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #30c2c7;
+}
+
+#textsecundario {
+    font-size: 20px;
+    text-align: justify;
+}
+
+footer {
+    display: inline-block;
+}
+
+#whatsapp {
+    width: 55px;
+    position: absolute;   
+    display: inline-block;
+    margin-left: 180px;
+    margin-right: auto;
+    margin-top: 5px;      
+}
+
+#linkedin {
+    width: 55px;
+    position: absolute;    
+    display: inline-block;
+    margin-left: 120px;
+    margin-right: auto;
+    margin-top: 5px;      
+}
+
+#facebook {
+    width: 55px;
+    position: absolute;    
+    display: inline-block;
+    margin-left: 240px;
+    margin-right: auto;
+    margin-top: 5px;      
+}
+
+#contacto {
+    width: 5%;
+    position: absolute;    
+    display: inline-block;
+    margin-left: 0%;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 20px;   
+}
+
+.linea {
+    text-decoration: underline;
+}
